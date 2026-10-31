@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Accessible and responsive web design project.">
+  <title>AccessWeb | Accessible Web Design</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header>
+  <nav class="navbar" aria-label="Main navigation">
+    <h2 class="logo">AccessWeb</h2>
+    <button id="menuBtn" aria-expanded="false"
+      aria-controls="navLinks" aria-label="Open navigation">
+      ☰
+    </button>
+    <ul id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="tag">WEEK 4 PROJECT</p>
+      <h1>Building a Better Web for Everyone</h1>
+      <p>
+        A responsive, accessible and performance-focused
+        website designed for all users and devices.
+      </p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <h2>Our Features</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Responsive Design</h3>
+        <p>Adapts smoothly to mobile, tablet and desktop screens.</p>
+      </article>
+      <article class="card">
+        <h3>Accessibility</h3>
+        <p>Keyboard-friendly navigation and readable content.</p>
+      </article>
+      <article class="card">
+        <h3>Performance</h3>
+        <p>Lightweight code and optimized page structure.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>Why Accessibility Matters</h2>
+    <p>
+      Every user deserves a simple and comfortable browsing
+      experience. This project uses semantic HTML, clear
+      navigation and accessible design practices.
+    </p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Let's Build an Inclusive Web</h2>
+    <p>Good design makes technology available to everyone.</p>
+    <a href="mailto:hello@example.com" class="btn">Contact Us</a>
+  </section>
+</main>
+
+<footer>
+  <p>© <span id="year">2026</span> AccessWeb | Week 4 Project</p>
+</footer>
+
+</body>
+</html>
